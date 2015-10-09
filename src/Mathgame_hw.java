@@ -10,6 +10,6 @@ public class Mathgame_hw {
 		//Prompt the user to answer said question
 		//Check answer and give points if answer was correct
 		//Print the users points and if print correct answer if they were wrong
-		
+		//End the program by telling the user how many points they earned
 	}
 }
