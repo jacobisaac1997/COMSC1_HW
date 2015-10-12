@@ -9,11 +9,11 @@ public class Mathgame_hw {
 		int r;
 		int points = 0;
 		int userAnswer = 0;
-		int cAnswer= 0;
+		double cAnswer= 0;
 		int random1;
 		int random2;
 		//The for loop creates four rounds
-		for(r = 0;r < 3;r++){
+		for(r = 0;r < 4;r++){
 		//Generate two random numbers
 			random1 = (int)(Math.random() * 10);
 			random2 = (int)(Math.random() * 10);
@@ -33,6 +33,11 @@ public class Mathgame_hw {
 				System.out.println("What is the answer to " + random1 + "*" + random2 + ".");
 				userAnswer = input.nextInt();
 				cAnswer = random1 * random2;
+			}
+			if(3 == points){
+				System.out.println("What is the answer to " + random1 + "/" + random2 + ".");
+				userAnswer = input.nextInt();
+				cAnswer = random1 / random2;
 			}
 		//Check answer and give points if answer was correct
 		if(userAnswer == cAnswer){
