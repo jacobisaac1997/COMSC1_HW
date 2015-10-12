@@ -12,14 +12,14 @@ public class Mathgame_hw {
 		int random1;
 		int random2;
 		//The for loop creates four rounds
-		for(r = 1;r > 5;r++){
+		for(r = 0;r < 5;r++){
 		//Generate two random numbers
 			random1 = (int)(Math.random() * 10);
 			random2 = (int)(Math.random() * 10);
 		//Check the users points for difficulty of question
-			if(points == 0){
+			if(0 == points){
 				//Prompt the user to answer said question
-				System.out.println("What is the answer to " + random1 + random2 + ".");
+				System.out.println("What is the answer to " + random1 + "+" + random2 + ".");
 			}
 		//Check answer and give points if answer was correct
 		//Print the users points and if print correct answer if they were wrong
