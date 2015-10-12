@@ -18,22 +18,26 @@ public class Mathgame_hw {
 			random1 = (int)(Math.random() * 10);
 			random2 = (int)(Math.random() * 10);
 		//Check the users points for difficulty of question
+			//Addition round
 			if(0 == points){
 				//Prompt the user to answer said question
 				System.out.println("What is the answer to " + random1 + "+" + random2 + ".");
 				userAnswer = input.nextInt();
 				cAnswer = random1 + random2;
 			}
+			//Subtraction Round
 			if(1 == points){
 				System.out.println("What is the answer to " + random1 + "-" + random2 + ".");
 				userAnswer = input.nextInt();
 				cAnswer = random1 - random2;
 			}
+			//Multiplication Round
 			if(2 == points){
 				System.out.println("What is the answer to " + random1 + "*" + random2 + ".");
 				userAnswer = input.nextInt();
 				cAnswer = random1 * random2;
 			}
+			//Division Round
 			if(3 == points){
 				System.out.println("What is the answer to " + random1 + "/" + random2 + ".");
 				userAnswer = input.nextInt();
