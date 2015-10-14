@@ -8,7 +8,7 @@ public class Mathgame_hw {
 		//Define variables
 		int r;
 		int points = 0;
-		int userAnswer = 0;
+		double userAnswer = 0;
 		double cAnswer= 0;
 		int random1;
 		int random2;
